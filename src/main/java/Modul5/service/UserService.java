@@ -10,4 +10,5 @@ public interface UserService {
     List<User> USERS = new ArrayList<>();
     User login(String username, String pasword);
     void  registration(User user) throws MessagingException;
+    void editPassvord(User user, String newPassword) throws MessagingException;
 }

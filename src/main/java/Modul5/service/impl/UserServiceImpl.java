@@ -28,10 +28,25 @@ public class UserServiceImpl implements UserService {
         do {
             Random random = new Random();
             int num = 10000 + random.nextInt(90000);
-            emailService.sendEmail(user.getEmail(), num);
+//            emailService.sendEmail(user.getEmail(), num);
             int emailAnswer = scanner.nextInt();
             if (num == emailAnswer) {
                 USERS.add(user);
+                break;
+            }
+        }while (i > 0);
+    }
+
+    @Override
+    public void editPassvord(User user, String newPassword) throws MessagingException {
+        int i = 5;
+        do {
+            Random random = new Random();
+            int num = 10000 + random.nextInt(90000);
+//            emailService.sendEmail(user.getEmail(), num);
+            int emailAnswer = scanner.nextInt();
+            if (num == emailAnswer) {
+                user.setPassword(newPassword);
                 break;
             }
         }while (i > 0);
