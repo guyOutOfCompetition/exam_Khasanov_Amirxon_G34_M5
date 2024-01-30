@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edd13578-8d5b-4756-9488-5ed22cdad837" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul5/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul5/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Modul5/service/impl/UserServiceImpl.java" afterDir="false" />
+    <list default="true" id="edd13578-8d5b-4756-9488-5ed22cdad837" name="Changes" comment="user domain writen✅">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul5/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Modul5/service/impl/EmailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul5/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul5/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul5/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul5/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Modul5/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Modul5/service/impl/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,6 +51,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "D:/IT/java/exam_Khasanov_Amirxon_G34_M5/src/main/java/Olx/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -84,11 +85,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706607562411</updated>
-      <workItem from="1706607563515" duration="1615000" />
+      <workItem from="1706607563515" duration="3467000" />
     </task>
+    <task id="LOCAL-00001" summary="user domain writen✅">
+      <option name="closed" value="true" />
+      <created>1706610304983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706610304983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="user domain writen✅" />
+    <option name="LAST_COMMIT_MESSAGE" value="user domain writen✅" />
   </component>
 </project>
